@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+    
+    <header class="header">
+      <div class="backgrnd">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./img/Logo (1).svg" alt="" width="114px" height="34px" />
+          </div>
+
+        <div class="rightnav">
+          <div class="hamburger-menu">
+            <i class="line line1"></i>
+            <i class="line line2"></i>
+            <i class="line line3"></i>
+        </div>
+
+          <ul class="navbar-items">
+            <li><a href="#destination" class="item">Desitnations</a></li>
+            <li><a href="" class="item">Hotels</a></li>
+            <li><a href="#flight" class="item">Flights</a></li>
+            <li><a href="#booking" class="item">Bookings</a></li>
+
+            <li class="login item">Login</li>
+            <li class="signup item">Sign up</li>
+            <li>
+              <select class="language" name="language" id="language">
+                <option value="EN">EN</option>
+                <option value="ES">ES</option>
+                <option value="RU">RU</option>
+                <option value="FI">FI</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+          <div class="clearfix"></div>
+        </nav>
+
+        <div class="frontpage">
+          <section class="front-matter" data-aos="fade-up">
+            <h2 class="head1">Best Destinations around the world</h2>
+            <p class="head enjoy">
+              Travel, enjoy
+              <img class="enjoyimg" src="./img/Decorered decore.png" alt="" />
+            </p>
+            <p class="head">and live a new</p>
+            <p class="head">and full life</p>
+            <p class="para1">
+              Built Wicket longer admire do barton vanity itself do in it.
+              Preferred to sportsmen it engrossed listening. Park gate sell they
+              west hard for the.
+            </p>
+            <div class="button1">
+              <a class="findmore" href="">Find out more</a>
+              <div class="playdemo">
+                <img src="./img/Play button.svg" alt="" />
+                <p>Play Demo</p>
+              </div>
+            </div>
+          </section>
+          <section
+            class="front-image"
+            data-aos="slide-left"
+            data-aos-delay="150"
+            data-aos-duration="900"
+          >
+            <img class="travelimg" src="./img/Traveller 1.png" alt="" />
+            <img class="planeimg" src="./img/plane.svg" alt="" />
+            <img class="planeimg1" src="./img/plane.svg" alt="" />
+          </section>
+        </div>
+      </div>
+    </header>
+
+
+    
+<!-- //offers section -->
+    <div class="offers">        
+      <div class="offers-top">
+        <section class="text-offers">
+          <div class="headingoffer">
+            <h3>CATEGORY</h3>
+            <p>We Offer Best Services</p>
+          </div>
+        </section>
+        <section class="plus">
+          <div class="plus1">
+            <p style="color: var(--1st, #ff7152)">+</p>
+            <p>+</p>
+            <p>+</p>
+            <p></p>
+            <p></p>
+          </div>
+          <div class="plus1">
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p></p>
+          </div>
+          <div class="plus1">
+            <p>+</p>
+            <p>+</p>
+            <p style="color: var(--2nd, #6246e5)">+</p>
+            <p>+</p>
+            <p>+</p>
+          </div>
+          <div class="plus1">
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+          </div>
+          <div class="plus1">
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+          </div>
+        </section>
+      </div>
+      <div class="offer-detail">
+        <section class="detail1 responsive1" data-aos="fade-right" data-aos-delay="50">
+          <img src="./img/Group 48.svg" alt="" />
+          <h3>Calculated Weather</h3>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+          <img class="redbg" src="./img/Rectangle 157redvg (1).svg" alt="" />
+        </section>
+        <section class="detail1 responsive1" data-aos="fade-right" data-aos-delay="150">
+          <img src="./img/Group 51.jpg" alt="" />
+          <h3>Best Flights</h3>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
+          <img class="redbg" src="./img/Rectangle 157redvg (1).svg" alt="" />
+        </section>
+        <section class="detail1 responsive2" data-aos="fade-right" data-aos-delay="250">
+          <img src="./img/Group 50.svg" alt="" />
+          <h3>Local Events</h3>
+          <p>
+            Barton vanity itself do in it. Preferd to men it engrossed
+            listening.
+          </p>
+          <img class="redbg" src="./img/Rectangle 157redvg (1).svg" alt="" />
+        </section>
+        <section class="detail1 responsive2" data-aos="fade-right" data-aos-delay="350">
+          <img src="./img/Group 49.svg" alt="" />
+          <h3>Customization</h3>
+          <p>We deliver outsourced aviation services for military customers</p>
+          <img class="redbg" src="./img/Rectangle 157redvg (1).svg" alt="" />
+        </section>
+      </div>
+    </div>
+
+    
+
+<!-- //Destination section -->
+    <div class="destination" id="destination">
+      <div class="desttop">
+        <div class="destheading">
+          <h3>Top Selling</h3>
+          <p>Top Destinations</p>
+        </div>
+      </div>
+      <div class="destplans" data-aos="fade-up">
+        <section class="detail2 det">
+          <img src="./img/Rectangle 14.jpg" alt="" />
+          <a href="" class="overlaybtn">Read More</a>
+          <div class="planplace">
+            <h3>Rome, Italty</h3>
+            <h3>$5,42k</h3>
+          </div>
+          <div class="planperiod">
+            <img src="./img/navigation 1arrow.svg" alt="" class="arrow1" />
+            <h3>10 Days Trip</h3>
+          </div>
+        </section>
+        <section class="detail2 det">
+          <img src="./img/Rectangle 14 (1).jpg" alt="" />
+          <a href="" class="overlaybtn">Read More</a>
+          <div class="planplace">
+            <h3>London, UK</h3>
+            <h3>$4.2k</h3>
+          </div>
+          <div class="planperiod">
+            <img src="./img/navigation 1arrow.svg" alt="" class="arrow1" />
+            <h3>12 Days Trip</h3>
+          </div>
+        </section>
+        <section class="detail2">
+          <img src="./img/Rectangle 14 (2).jpg" alt="" />
+          <a href="" class="overlaybtn">Read More</a>
+          <div class="planplace">
+            <h3>Full Europe</h3>
+            <h3>$15k</h3>
+          </div>
+          <div class="planperiod">
+            <img src="./img/navigation 1arrow.svg" alt="" class="arrow1" />
+            <h3>28 Days Trip</h3>
+          </div>
+          <img class="spring" src="./img/Decore.jpg" alt="">
+        </section>
+      </div>
+    </div>
+
+    <div class="nexttrip">
+      <section class="trip1">
+        <div class="trip1head">
+          <h3>Easy and Fast</h3>
+          <p>Book your next trip in 3 easy steps</p>
+        </div>
+        <div class="tripmatter">
+          <div class="matterinfo" data-aos="fade" data-aos-delay="50">
+            <section class="matterimg">
+              <img src="./img/Group 7.svg" alt="" />
+            </section>
+            <section class="matterdetail">
+              <h3>Choose Destination</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </section>
+          </div>
+          <div class="matterinfo" data-aos="fade" data-aos-delay="100">
+            <section class="matterimg">
+              <img src="./img/Group 12.svg" alt="" />
+            </section>
+            <section class="matterdetail">
+              <h3>Make Payment</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </section>
+          </div>
+          <div class="matterinfo" data-aos="fade" data-aos-delay="150">
+            <section class="matterimg">
+              <img src="./img/Group 11.svg" alt="" />
+            </section>
+            <section class="matterdetail">
+              <h3>Reach Airport on Selected Date</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="trip2">
+        <div class="tripbox">
+          <div class="boximg">
+            <img src="./img/Rectangle 17.jpg" alt="" />
+          </div>
+          <div class="boxmatter">
+            <h4 class="boxmatterhead">Trip To Greece</h4>
+            <h4 class="boxmatterdate">
+              14-29 June &nbsp| &nbsp by Robbin joseph
+            </h4>
+            <div class="boxicons">
+              <div class="icons">
+                <img src="./img/leaf 1.svg" alt="" />
+              </div>
+              <div class="icons">
+                <img src="./img/map 1.svg" alt="" />
+              </div>
+              <div class="icons">
+                <img src="./img/send 2.svg" alt="" />
+              </div>
+            </div>
+            <div class="boxpeople">
+              <img src="./img/building 1.svg" alt="" />
+              <h4>24 people going</h4>
+              <img src="./img/heart (6) 1.svg" alt="" />
+            </div>
+          </div>
+          <div class="pop-box">
+            <section class="popimg">
+              <img src="./img/image 32.svg" alt="">
+            </section>
+            <section class="popmatter">
+              <h4>Ongoing</h4>
+              <h3>Trip to rome</h3>
+              <p><span>40%</span>&nbsp completed</p>
+              <img src="./img/Group 3.svg" alt="">
+            </section>
+          </div>
+        </div>
+        <div class="backgrndshade" data-aos="fade" data-aos-delay="150"></div>
+      </section>
+    </div>
+
+
+
+
+
+<!-- //Coursel     -->
+    <div class="aboutus" id="booking">
+      <section class="about1">
+        <div class="about1-top">
+          <h3>Testimonials</h3>
+          <p>What people say about Us.</p>
+        </div>
+        <div class="dot-parent dotp1">
+            <i class="dot dot1"></i>
+            <i class="dot dot2 dot-color"></i>
+            <i class="dot dot3"></i>
+        </div>
+      </section>
+      <section class="about2">
+        <div class="display-matter">
+            <div class="box0 toggleup" title="0">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus id error quisquam aut ad voluptatem."</p>
+                <h4 class="name">Charles Jackson</h4>
+                <h4 class="place">Canada, USA</h4>
+                <img class="person" src="./img/234-removebg-preview (1).jpg" alt="" style="border-radius: 50%;">
+            </div>
+            <div class="box1 toggleup foc1" title="1">
+                <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                <h4 class="name">Mike taylor</h4>
+                <h4 class="place">Lahore, Pakistan</h4>
+                <img class="person" src="./img/Image.svg" alt="">
+            </div>
+            <div class="box2 toggleup" title="2">
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto eaque nobis neque dignissimos! Necessitatibus, eaque?"</p>
+                <h4 class="name">Chris Thomas</h4>
+                <h4 class="place">CEO of Red Button</h4>
+                <img class="person" src="./img/passport-photo-measurement-removebg-preview (1).jpg" alt="" style="border-radius: 50%;">
+            </div>
+        </div>
+        <div class="toggle">
+          <p><i class="arrow up" id="up"></i></p>
+          <p><i class="arrow down" id="down"></i></p>
+        </div>
+      </section>
+      <div class="dot-parent dotp2">
+        <i class="dot dot1"></i>
+        <i class="dot dot2 dot-color"></i>
+        <i class="dot dot3"></i>
+    </div>
+    </div>
+
+
+
+
+<!-- //Airlines     -->
+    <div class="airlinelogo" id="flight">
+      <div class="logos" data-aos="fade-right" data-aos-delay="50">
+        <img src="./img/image 27 (1).jpg" alt="" />
+      </div>
+      <div class="logos" data-aos="fade-right" data-aos-delay="100">
+        <img src="./img/image 28 (1).jpg" alt="" />
+      </div>
+      <div class="logos" data-aos="fade-right" data-aos-delay="150">
+        <img src="./img/image 29.jpg" alt="" />
+      </div>
+      <div class="logos" data-aos="fade-right" data-aos-delay="200">
+        <img src="./img/image 30.jpg" alt="" />
+      </div>
+      <div class="logos" data-aos="fade-right" data-aos-delay="250">
+        <img src="./img/image 31.jpg" alt="" />
+      </div>
+    </div>
+
+
+
+
+
+<!-- //Contact Section     -->
+    <div class="contact-section">
+      <div class="contact">
+        <section class="contact-head">
+          <p>
+            Subscribe to get information, latest news and other interesting
+            offers about Cobham
+          </p>
+        </section>
+        <img class="ellipse1" src="./img/Group 42.svg" alt="" />
+        <img class="ellipse2" src="./img/Group 42 (1).svg" alt="" />
+        <form class="contact-botom">
+          <input
+            class="inputmail"
+           type="text"
+            name="email"
+            id="email"
+            placeholder="Your email"
+          />
+          <input class="btn" type="submit" value="Subscribe"/>
+        </form>
+        <img class="contact-img" src="./img/Group 77.svg" alt="">
+      </div>
+      <div class="plussection">
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+          <p style="color: var(--2nd, #6246e5)">+</p>
+        </div>
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+          <p>+</p>
+        </div>
+        <div class="plus1">
+          <p style="color: var(--1st, #ff7152)">+</p>
+          <p>+</p>
+          <p>+</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="remainingplus">
+      <section class="plus2 first">
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+        </div>
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+        </div>
+      </section>
+      <section class="plus2 last">
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+        </div>
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+        </div>
+        <div class="plus1">
+          <p>+</p>
+          <p>+</p>
+        </div>
+      </section>
+    </div>
+
+
+
+
+
+<!-- //Footer     -->
+    <div class="foot">
+      <div class="footer">
+        <div class="footertop">
+          <section class="first-foot foot1">
+            <h1>Jadoo.</h1>
+            <p>Book your trip in minute, get full Control for much longer.</p>
+          </section>
+         <div class="divfooter">
+          <ul class="middle-foot">
+            <li class="middle-foot-1">Company</li>
+            <li class="middle-foot-2">About</li>
+            <li class="middle-foot-2">Careers</li>
+            <li class="middle-foot-2">Mobile</li>
+          </ul>
+          <ul class="middle-foot">
+            <li class="middle-foot-1">Contact</li>
+            <li class="middle-foot-2">Help/FAQ</li>
+            <li class="middle-foot-2">Press</li>
+            <li class="middle-foot-2">Affilates</li>
+          </ul>
+          <ul class="middle-foot">
+            <li class="middle-foot-1">More</li>
+            <li class="middle-foot-2">Airlinefees</li>
+            <li class="middle-foot-2">Airline</li>
+            <li class="middle-foot-2">Low fare tips</li>
+          </ul>
+         </div>
+          <section class="last-foot foot1">
+            <div class="last-foot-img">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./img/Social.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="./img/Socialinsta.jpg" alt=""
+              /></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><img src="./img/Social (3).svg" alt=""
+              /></a>
+            </div>
+            <p>Discover our app</p>
+            <div class="last-foot-playstore">
+              <a href="https://play.google.com/" target="_blank"
+                ><img src="./img/Google Play.svg" alt=""
+              /></a>
+              <a href="https://www.apple.com/in/app-store/" target="_blank">
+                <img src="./img/Play Store.svg" alt=""
+              /></a>
+            </div>
+          </section>
+        </div>
+        <div class="footerbotom">
+          <section class="copyright">
+            <p>All rights reserved@jadoo.co</p>
+          </section>
+        </div>
+      </div>
+      <div class="pattern"></div>
+    </div>
+    <!-- <script src="./script.js"></script> -->
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 150,
+        duration: 800,
+        offset: 120,
+        easing: "ease-in-out",
+        once: true,
+      });
+    </script>
+  </body>
+</html>
